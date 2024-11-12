@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>电子羊的吃饭问答</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <!--设置用户界面样式  
+    width=device-width表明用户界面与设备匹配
+    initial-scale=1.0, maximum-scale=1.0, user-scalable=no表示缩放比例为1：0且不能更改喔
+    
+    -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!--设置css样式-->
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div id="temp_container"></div>
+    <div id="wrapper">
+      <h1 class="title">
+        今天<span class="time">早饭</span>吃<b class="what">什么</b
+        ><span class="punctuation">？</span>
+      </h1>
+      <span id="start"><span>开始</span></span>
+      <p class="os"></p>
+      <p>嘿！要好好吃饭喔(๑•́ ₃ •̀๑)ｴｰ</p>
+    </div>
+    <div id="toggle">
+      <span data-type="human" class="selected">正常人类</span
+      ><span data-type="monster">非正常人类</span>
+      <div class="hb"></div>
+    </div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1332f8ba9af94ac3b0af1936e1a403c9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </body>
+</html>

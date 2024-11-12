@@ -1,0 +1,105 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://blog.myovo.cn/chi/",
+            "path": "index.html",
+            "saved": true,
+            "size": 1093,
+            "children": [
+                {
+                    "url": "https://blog.myovo.cn/chi/js/zepto.min.js",
+                    "path": "js/zepto.min.js",
+                    "saved": true,
+                    "size": 25138,
+                    "children": []
+                },
+                {
+                    "url": "https://blog.myovo.cn/chi/js/app.min.js",
+                    "path": "js/app.min.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://blog.myovo.cn/chi/css/style.min.css",
+                    "path": "css/style.min.css",
+                    "saved": true,
+                    "size": 7768,
+                    "children": [
+                        {
+                            "url": "https://blog.myovo.cn/chi/images/bg.jpg",
+                            "path": "img/bg.jpg",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "http://tool.h5ma.com/chi/img/icon.png",
+                            "saved": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "alias": "blog-myovo-cn-uzwgbbca",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://blog.myovo.cn/chi/css/style.min.css",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "https://blog.myovo.cn/chi/",
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Wed, 15 Sep 2021 15:02:37 GMT",
+                "content-type": "text/html",
+                "last-modified": "Sat, 05 Jun 2021 08:11:27 GMT",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "set-cookie": [
+                    "X_CACHE_KEY=30d624119d49238666c1516ad5c30f5d; path=/; Expires=Fri, 31-Dec-9999 23:59:59 GMT"
+                ],
+                "etag": "W/\"60bb31af-4c2\"",
+                "strict-transport-security": "max-age=31536000"
+            }
+        },
+        "time": {
+            "start": "2021-09-15T15:02:30.648Z",
+            "end": "2021-09-15T15:02:45.599Z"
+        },
+        "remark": [],
+        "ip": "82.156.201.24",
+        "url": "https://blog.myovo.cn/chi/",
+        "main": "index.html",
+        "domain": "blog.myovo.cn",
+        "origin": "https://blog.myovo.cn",
+        "totalSize": "34 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "https://blog.myovo.cn/chi/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}
